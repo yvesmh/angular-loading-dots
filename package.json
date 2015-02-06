@@ -1,0 +1,20 @@
+{
+  "author": "Yves Mancera",
+  "name": "loading-dots",
+  "description": "Loading-dots - An AngularJS directive to display loading dots in the form of text",
+  "version": "0.0.1",
+  "homepage": "http://github.com/yvesmh/loading-dots/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yvesmh/loading-dots"
+  },
+  "keywords": [
+    "angularjs",
+    "loading",
+    "dots",
+    "loading text"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+}

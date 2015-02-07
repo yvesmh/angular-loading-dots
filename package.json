@@ -16,5 +16,12 @@
   ],
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.1",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-karma": "^0.8.3",
+    "karma": "^0.12.19",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
 }

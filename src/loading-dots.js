@@ -6,7 +6,7 @@
  * @description An AngularJS directive to display loading dots in the form of text"
  * # loadingDots
  */
-angular.module('angularLoadingDots')
+angular.module('angularLoadingDots', [])
   .directive('loadingDots', function ($interval) {
 
     /**

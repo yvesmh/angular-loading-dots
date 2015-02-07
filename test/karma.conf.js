@@ -25,6 +25,8 @@ module.exports = function(config) {
       'karma-jasmine'
     ],
 
+    singleRun: true,
+
     colors: true,
 
     logLevel: 'INFO'

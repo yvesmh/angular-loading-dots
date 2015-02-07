@@ -12,8 +12,8 @@ describe('Directive: angular-loading-dots', function() {
   }));
 
   it('Should exist', inject(function($compile) {
-    element = angular.element('<loading-dots></loading-dots>');
+    element = angular.element('<span loading-dots></span>');
     element = $compile(element)(scope);
-    expect(true).toBe(true);
+    expect(element).toBeTruthy();
   }));
 });

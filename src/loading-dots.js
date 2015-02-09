@@ -57,8 +57,8 @@ angular.module('angularLoadingDots', [])
 
     function link(scope, element, attributes) {
       //numeric values
-      var max         = numberValueOrDefault(attributes.maxDots, 5);
-      var min         = numberValueOrDefault(attributes.minDots, 0, 0, max -1);
+      var min         = numberValueOrDefault(attributes.minDots, 0, 0);
+      var max         = numberValueOrDefault(attributes.maxDots, 5, min + 1);
       var starting    = numberValueOrDefault(attributes.starting, min, min, max);
       var increment   = numberValueOrDefault(attributes.increment, 1);
       var interval    = numberValueOrDefault(attributes.interval, 300);
@@ -75,6 +75,8 @@ angular.module('angularLoadingDots', [])
         if(intervalPromise) {
           $interval.cancel(intervalPromise);
         }
+        var initialText = repeatChar(character, starting);
+        element.text(initialText);
         intervalPromise = $interval(tick, interval);
         isLoading = true;
       }

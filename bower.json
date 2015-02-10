@@ -1,6 +1,24 @@
 {
   "name": "angular-loading-dots",
-  "version": "0.0.1",
+  "description": "AngularJS directive to display loading dots in the form of text",
+  "version": "0.1.0",
+  "main": "src/loading-dots.js",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "directive",
+    "loading",
+    "loading text",
+    "progress dots",
+    "loading..."
+  ],
+  "authors": [
+    "Yves Mancera"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yvesmh/angular-loading-dots.git"
+  },
   "dependencies": {
     "angular": "1.2.16"
   },

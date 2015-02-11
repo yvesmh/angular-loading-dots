@@ -1,0 +1,6 @@
+<button ng-click="startLoading()" ng-disabled="isLoading" >Start</button>
+<button ng-click="stopLoading()" ng-disabled="!isLoading" >Stop</button>
+<p><strong>Simulate async call</strong></p>
+<label for="load-time">Load time: </label>
+<input type="number" ng-model="loadTime" id="load-time">
+<button ng-click="simulateAsync()">Simulate</button>

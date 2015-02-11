@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Angular Loading Dots">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <title>Angular Loading Dots</title>
+</head>
+
+<body ng-app="ghpApp">
+    <div id="container">
+        <div class="inner">
+
+          {% include header.html %}
+          <section id="main_content" ng-controller="AppCtrl">
+          {{content}}
+          </section>
+          {% include footer.html %}
+
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+            <script type="text/javascript">
+            try {
+                var pageTracker = _gat._getTracker("UA-59575008-1");
+                pageTracker._trackPageview();
+            } catch (err) {}
+            </script>
+
+        </div>
+    </div>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular.js"></script>
+    <script src="https://cdn.rawgit.com/yvesmh/angular-loading-dots/281c4f2ed0ac24258b1bfa6ed678a6c3abd6c120/src/loading-dots.js"></script>
+    <script src="javascripts/main.js"></script>
+</body>
+
+</html>

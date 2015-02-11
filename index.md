@@ -133,7 +133,7 @@ If you wish to use a different character other than the dot, you can.
 
 ## Defaults summary
 
-| Attribute | Default |
+| **Attribute** | **Default** |
 | --------- | ------- |
 | min-dots  |    0    |
 | max-dots  |    5    |

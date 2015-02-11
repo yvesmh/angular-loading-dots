@@ -2,9 +2,19 @@
 
 Angular directive for displaying loading dots in the form of text
 
-## Getting Started
+## Install
 
-Refer to our [Getting started guide](http://yvesmh.github.io/angular-loading-dots/)
+### Manual download
+
+Download the latest release from [here](https://github.com/yvesmh/angular-loading-dots/releases)
+
+### Bower
+
+    bower install angular-loading-dots
+
+## Usage
+
+Refer to the [Guide](http://yvesmh.github.io/angular-loading-dots/)
 
 ## Building and testing
 
@@ -25,6 +35,12 @@ To run the tests:
 
     grunt test
 
+
+## Issues
+
+For questions, bug reports and/or feature requests please search through [existing issues](https://github.com/yvesmh/angular-loading-dots/issues)
+
+If you don't find an answer feel free to open a [new issue](https://github.com/yvesmh/angular-loading-dots/issues/new)
 
 ## License
 

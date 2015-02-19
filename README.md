@@ -1,4 +1,4 @@
-# loading-dots
+# angular-loading-dots [![Build Status](https://travis-ci.org/yvesmh/angular-loading-dots.svg?branch=master)](https://travis-ci.org/yvesmh/angular-loading-dots)
 
 Angular directive for displaying loading dots in the form of text
 

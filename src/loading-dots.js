@@ -7,7 +7,7 @@
  * # loadingDots
  */
 angular.module('angularLoadingDots', [])
-  .directive('loadingDots', function ($interval) {
+  .directive('loadingDots', ["$interval", function ($interval) {
 
     /**
      * Repeats a character n times
@@ -123,4 +123,4 @@ angular.module('angularLoadingDots', [])
       restrict: 'AE',
       link: link
     };
-  });
+  }]);
